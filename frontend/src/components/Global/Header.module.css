@@ -1,0 +1,22 @@
+.headerContainer {
+  background: #f5f5f5;
+}
+
+.header {
+	font-weight: 500;
+	display: grid;
+	grid-template-columns: 1fr auto;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+.header h1 {
+	color: black;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.nav {
+	display: block;
+	align-items: flex-end;
+}
